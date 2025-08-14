@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gestion_banco_apellido"  # Cambia 'apellido' por tu apellido real
+version = "0.1.0"
+authors = [
+  { name="Tu Nombre", email="tuemail@example.com" }
+]
+description = "Gestión bancaria con Programación Orientada a Objetos en Python"
+readme = "README.md"
+license = { text="MIT" }
+requires-python = ">=3.7"
+keywords = ["banco", "POO", "transacciones", "cuentas"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
